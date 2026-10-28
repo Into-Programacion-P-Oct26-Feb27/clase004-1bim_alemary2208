@@ -20,3 +20,4 @@ public class Ejemplo04 {
         System.out.print(nombreEstudiante);
     }
 }
+// el System.out.print ejecuta las variables unidas sin espacios.
