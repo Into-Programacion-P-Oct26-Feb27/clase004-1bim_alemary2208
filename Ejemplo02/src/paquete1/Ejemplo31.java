@@ -37,6 +37,7 @@ public class Ejemplo31 {
         
         
         System.out.println("Ingrese nombre de asignatura 2");
+        entrada.nextLine();
         nombreAsignatura2 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 2");
         notaAsignatura2 = entrada.nextDouble();
@@ -57,7 +58,7 @@ public class Ejemplo31 {
         y se necesita la ciudad de nacimieto
         */
         
-        System.out.printf("Asignatura 1:%s\nNota1:%.2f\n" + "Asignatura 2:%s\nNota 2:%.2f\n" +
+        System.out.printf("Asignatura 1:%s\nNota1:%.2f\n + Asignatura 2:%s\n" + "Nota 2:%.2f\n" +
                 "Nombre de estudiante: %s\n" + "Ciudad de nacimiento: %s\n" + "Año de nacimiento %s\n" +
                 "Edad Actual %s\n",
                 nombreAsignatura1,
